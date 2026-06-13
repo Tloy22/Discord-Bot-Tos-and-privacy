@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Mango Bot</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f13;
+      color: #d4d4d8;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 60px 20px;
+    }
+    .card {
+      background: #18181b;
+      border: 1px solid #27272a;
+      border-radius: 16px;
+      max-width: 720px;
+      width: 100%;
+      padding: 52px 56px;
+    }
+    .badge {
+      display: inline-block;
+      background: #7c3aed22;
+      color: #a78bfa;
+      border: 1px solid #7c3aed55;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      margin-bottom: 18px;
+    }
+    h1 { font-size: 28px; font-weight: 700; color: #fafafa; margin-bottom: 8px; }
+    .meta { font-size: 13px; color: #71717a; margin-bottom: 40px; }
+    h2 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #a1a1aa;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin: 36px 0 12px;
+    }
+    p, li { font-size: 15px; line-height: 1.75; color: #a1a1aa; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    a { color: #818cf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .divider { border: none; border-top: 1px solid #27272a; margin: 36px 0; }
+    .footer { font-size: 13px; color: #52525b; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">Legal</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: June 2025 &nbsp;·&nbsp; Mango Bot</p>
+
+    <h2>1. Overview</h2>
+    <p>Mango Bot ("the Bot") is a private Discord bot. This policy explains what data is collected, how it is used, and your rights regarding that data.</p>
+
+    <h2>2. Data We Collect</h2>
+    <p>The Bot collects and stores the following data solely to provide its features:</p>
+    <ul>
+      <li><strong>Discord User IDs</strong> — to identify users with helper permissions and the bot owner.</li>
+      <li><strong>Discord Server (Guild) IDs</strong> — to scope commands and configuration to the correct server.</li>
+      <li><strong>Discord Role IDs</strong> — to determine whether a user has permission to use helper-only commands.</li>
+      <li><strong>Auto-reply configurations</strong> — keyword triggers and response text set by authorised helpers.</li>
+      <li><strong>Macro status data</strong> — version numbers, macro names, status values, and notes set by authorised helpers.</li>
+      <li><strong>Channel and message IDs</strong> — to track the live status board message for automatic updates.</li>
+    </ul>
+
+    <h2>3. Data We Do Not Collect</h2>
+    <ul>
+      <li>We do not read, log, or store the content of regular messages.</li>
+      <li>We do not collect email addresses, IP addresses, or any information outside of Discord.</li>
+      <li>We do not share any data with third parties.</li>
+    </ul>
+
+    <h2>4. How Data Is Used</h2>
+    <ul>
+      <li>To respond to slash commands and deliver the correct output to the user.</li>
+      <li>To enforce permission levels (e.g. helper-only commands).</li>
+      <li>To persist auto-reply rules and macro statuses across bot restarts.</li>
+      <li>To automatically update the live macro status board message.</li>
+    </ul>
+
+    <h2>5. Data Storage</h2>
+    <p>All data is stored in a private <a href="https://supabase.com" target="_blank">Supabase</a> database. Access is restricted to the bot operator. Supabase's own privacy policy applies to the infrastructure layer.</p>
+
+    <h2>6. Data Retention</h2>
+    <p>Data is retained for as long as the Bot is active in a server. Server-specific data (roles, auto-replies, macro statuses) is removed upon request. There is no automated retention period.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>You may request deletion of any data associated with your Discord User ID at any time by contacting the bot operator directly via Discord.</p>
+
+    <hr class="divider" />
+
+    <h2>8. Contact</h2>
+    <p>For any privacy-related requests, contact the bot operator on Discord.</p>
+
+    <p class="footer">This policy may be updated at any time. Continued use of the Bot after changes constitutes acceptance of the revised policy.</p>
+  </div>
+</body>
+</html>
